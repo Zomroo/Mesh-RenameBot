@@ -4,7 +4,7 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL = [str, "mongodb+srv://Zoro:Zoro@cluster0.x1vigdr.mongodb.net/?retryWrites=true&w=majority"]
+        DATABASE_URL = [str, "postgres://oypdrwxq:gZHTqsJSmlyQ0rp_DWSnGDrOsTcYM-Pl@suleiman.db.elephantsql.com/oypdrwxq"]
         API_HASH = [str, "1e26ebacf23466ed6144d29496aa5d5b"]
         API_ID = [int, 14091414]
         BOT_TOKEN = [str, "5752952621:AAGO61IiffzN23YuXyv71fbDztA_ubGM6qo"]
